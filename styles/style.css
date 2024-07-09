@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    gap: 420px;
+    margin-top: 40px;
+}
+.download-btn{
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(13, 19, 33);
+    font-weight: 600;
+    opacity: 0.9;
+}
+.div-container{
+    background-image: url(../assets/Hero-bg.png);
+    
+    margin-top: 50px;
+    max-width: 1339px;
+    max-height: 550px;
+}
+.Developer-introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+   align-items: center;
+   
+}
+.computer-img{
+    margin-top: 100px;
+}
+.developer-title{
+    font-size: 48px;
+font-weight: 800;
+text-align: center;
+}
+.developer-title{
+    margin-top: 20px;
+    font-weight: 800;
+}
+.about-development{
+    margin-top: 20px;
+    font-weight: 400;
+
+}
+
+.contact-btn{
+    margin-top: 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(13, 19, 33);
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    padding: 17px 15px 17px 15px;
+
+}
+.dev{
+    margin-left: 300px;
+    
+}
+.web-development-container{
+    width: 80%;
+    height: 550px;
+    margin: 0 auto;
+    border: 1px solid red;
+    border-radius: 10px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 50px 60px 50px 60px;
+
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+    
+
+.coding{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 90%;
+    margin: 0 auto;
+    padding: 48px;
+    box-shadow: #000000;
+    background-color: #FFFFFF;
+}
+.coding-world{
+    margin: 10px 0;
+    text-align: left;
+}
+.learn-btn{
+    
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    opacity: 0.8;
+}
+
