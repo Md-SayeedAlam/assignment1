@@ -196,13 +196,16 @@ p{
 .third-coding-description{
     text-align: left;
 }
-/* web development container styles end here */ 
+/* web development container styles ends here */ 
+
+
+/* my inspiration section styles starts here */
 
 .my-inspiration{
     max-width: 1339px;
     height: 550px;
    
-    /* border: 1px solid red; */
+   
 }
 .my-inspiration{
     padding: 50px 60px 50px 60px;
@@ -229,10 +232,13 @@ p{
     padding: 20px;
 }
 
+/* my inspiration section styles ends here  */
+
+
+/* my current target section styles */
+
 .my-current-target{
-    /* max-width: 1339px;
-    max-height: 550px; */
-    /* border: 1px solid red; */
+    
     background-color: white;
     margin-top: 50px;
     padding: 50px 60px 50px 60px;
@@ -285,6 +291,11 @@ h4, .html-describe, .css-describe, .java-describe{
 .html-img, .css-img{
     margin-left: -7px;
 }
+
+/* my current target section styles ends here */
+
+/* i need support section styles starts here */
+
 .support-section{
     max-width: 1339px;
     max-height: 550px;
@@ -352,3 +363,4 @@ font-weight: 600;}
 .footer-img-link-1, .footer-img-link-2{
     margin-right: 10px;
 }
+/* i need support section styles ends here */
