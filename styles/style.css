@@ -6,6 +6,8 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+
+/* hero styles */
 nav{
     display: flex;
     flex-direction: row;
@@ -86,11 +88,16 @@ text-align: center;
     margin-left: 300px;
     
 }
+/* hero styles end here */
+
+
+/* web development ontainer styles */
+
 .web-development-container{
     width: 80%;
     height: 80%;
     margin: 0 auto;
-    /* border: 1px solid red; */
+   
     border-radius: 10px;
     background: rgba(13, 19, 33, 0.02);
     padding: 50px 60px 50px 60px;
@@ -130,14 +137,14 @@ p{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    /* align-items: center; */
+   
     width: 90%;
     margin: 0 auto;
     padding: 48px;
-    /* box-shadow: #000000; */
+    
      background-color:#FFFFFF;
 
-    /* border: 1px solid red; */
+    
     
 }
 .coding-world{
@@ -169,7 +176,7 @@ p{
     margin: 0 auto;
     padding: 48px;
     background: rgb(255, 255, 255);
-    /* border: 1px solid red; */
+    
     
 }
 
@@ -183,12 +190,14 @@ p{
     padding: 48px;
     
     background-color:#FFFFFF;
-    /* border: 1px solid red; */
+    
 
 }
 .third-coding-description{
     text-align: left;
 }
+/* web development container styles end here */ 
+
 .my-inspiration{
     max-width: 1339px;
     height: 550px;
