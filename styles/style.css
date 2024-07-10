@@ -27,6 +27,10 @@ nav{
     opacity: 0.9;
     margin-top: 35px;
 }
+.btn-color{
+    color: white;
+    text-decoration: none;
+}
 .div-container{
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -91,11 +95,12 @@ text-align: center;
     background: rgba(13, 19, 33, 0.02);
     padding: 50px 60px 50px 60px;
     gap: 30px;
+
     
 }
 h2{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     color: rgb(13, 19, 33);}
     h3{
         color: rgba(13, 19, 33, 0.7);
@@ -107,6 +112,7 @@ p{
     text-align: center;
     margin-top: 20px;
     opacity: 0.7;
+    margin-bottom: 20px;
 
 
     
@@ -148,7 +154,11 @@ p{
     margin-top: 20px;
     background-color: #FFFFFF;
     border: 1px solid;
-    opacity: 0.8;
+    
+}
+.btn-decoration{
+    text-decoration: none;
+    color: black;
 }
 .coding-2{
     display: flex;
@@ -182,9 +192,11 @@ p{
 .my-inspiration{
     max-width: 1339px;
     height: 550px;
+   
     /* border: 1px solid red; */
 }
 .my-inspiration{
+    padding: 50px 60px 50px 60px;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -214,6 +226,8 @@ p{
     /* border: 1px solid red; */
     background-color: white;
     margin-top: 50px;
+    padding: 50px 60px 50px 60px;
+    
     
 
 }
@@ -228,7 +242,7 @@ p{
 .link-asset-1, .link-asset-2, .link-asset-3{
     text-align: left;
     border-radius: 5px;
-    /* border: 1px solid red; */
+    
     margin-top: 5px;
     padding: 20px;
     
@@ -261,4 +275,71 @@ h4, .html-describe, .css-describe, .java-describe{
 }
 .html-img, .css-img{
     margin-left: -7px;
+}
+.support-section{
+    max-width: 1339px;
+    max-height: 550px;
+    margin-top: 50px;
+    color: white;
+
+    
+    
+}
+.support-title{
+    color: white;
+}
+
+.support{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    background-image: url(../assets/handshake.jpg);
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 50px 60px 50px 60px;
+}
+.input-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    gap: 12px;
+
+}
+.type-text{
+
+border: 1px solid rgba(13, 19, 33, 0.15);
+background: rgb(255, 255, 255);
+width: 450px;
+height: 40px;
+padding: 9px 11px 9px 11px;
+border-radius: 5px;
+}
+.sub-btn{
+    background-color: white;
+    width: 140px;
+    height:61px;
+padding: 9px 11px 9px 11px;
+border-radius: 5px;
+border: none;
+font-weight: 700;
+font-size: 15px;
+}
+.last-footer-div{
+    background-color:#F7F8F8;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 550px;
+    font-size: 15px;
+font-weight: 600;}
+
+.footer-img-link-1, .footer-img-link-2{
+    margin-right: 10px;
 }
