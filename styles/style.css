@@ -171,6 +171,7 @@ p{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+    gap: 40px;
     
     width: 90%;
     margin: 0 auto;
@@ -178,6 +179,9 @@ p{
     background: rgb(255, 255, 255);
     
     
+}
+.coding-world-2-decription{
+    text-align: left;
 }
 
 .coding-3{
@@ -314,7 +318,8 @@ h4, .html-describe, .css-describe, .java-describe{
     height: 80%;
     margin: 0 auto;
     background-image: url(../assets/handshake.jpg);
-   
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
